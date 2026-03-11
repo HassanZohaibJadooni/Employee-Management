@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 20px;
+}
+
+.submitBtn{
+    background-color: rgb(26, 196, 230);
+}
+
+
+/* Form box */
+#myForm{
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    color: #333;
+    position: relative;
+}
+
+/* Form rows */
+.form-row ,.form-row select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-row label ,.form-row select{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-row input ,.form-row select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 14px;
+    margin: 6px 3px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: white; 
+    position: relative;
+    margin-top: 2000px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* main button */
+#showForm {
+    background-color: #ffd600;
+    padding: 12px 20px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 6px;
+}
+
+.editBtn{
+    background-color: rgb(28, 250, 28);
+}
+.detailBtn{
+    background-color: rgb(28, 209, 250);
+}
+.delete{
+    background-color: rgb(255, 0, 0);
+}
+
+#closePopup{
+    background-color: #ffd600;
+    float: right;
+}
+#popup{
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    justify-self: center;
+    width: 400px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    color: #333;
+    position: relative;
+    font-size: 1rem;
+    border:1px solid black;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+
+
+
