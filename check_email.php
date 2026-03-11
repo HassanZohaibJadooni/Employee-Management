@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rating = $_POST['rating'];
     $sallary = $_POST['sallary'];
 
-    // Check duplicate email
+    // Check duplicate Email
     $sql = "SELECT * FROM employee WHERE email='$email' AND is_deleted=0 AND id != '$id'";
     $result = $connection->query($sql);
 

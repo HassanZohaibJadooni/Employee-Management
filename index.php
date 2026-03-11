@@ -14,7 +14,7 @@ $sql = "CREATE DATABASE IF NOT EXISTS Employees";
 $connection->query($sql);
 $connection->close();
 
-// Reconnect with Database
+// Reconnect with Databases
 $connection = new mysqli($servername, $username, $password, "Employees");
 
 // Create Table if not exists

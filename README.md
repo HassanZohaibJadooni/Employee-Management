@@ -149,7 +149,7 @@ The application will automatically create:
 
 ### Add Employee Form
 
-![Add Employee](screenshots/add-employee-form.png)
+![Add Employee](screenshots/add-employee-forms.png)
 
 ### Edit Employee
 
