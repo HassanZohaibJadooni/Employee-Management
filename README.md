@@ -13,13 +13,21 @@ This project allows users to **Add, Update, View, and Soft Delete employee recor
 # 🚀 Features
 
 ✔ Add new employee records
+
 ✔ Edit employee information
+
 ✔ Soft delete employee records
+
 ✔ AJAX based insert & update
+
 ✔ Duplicate email validation
+
 ✔ Form validation using jQuery
+
 ✔ Employee details popup view
+
 ✔ Clean employee table interface
+
 
 ---
 
