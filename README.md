@@ -19,20 +19,20 @@ This project allows users to **Add, Update, View, and Soft Delete employee recor
 ✔ Duplicate email validation
 ✔ Form validation using jQuery
 ✔ Employee details popup view
-✔ Clean table view of employees
+✔ Clean employee table interface
 
 ---
 
 # 🛠 Technologies Used
 
-| Technology   | Purpose               |
-| ------------ | --------------------- |
-| PHP (MySQLi) | Backend logic         |
-| MySQL        | Database              |
-| HTML5        | Structure             |
-| CSS3         | Styling               |
-| jQuery       | DOM manipulation      |
-| AJAX         | Async form submission |
+| Technology   | Purpose                      |
+| ------------ | ---------------------------- |
+| PHP (MySQLi) | Backend logic                |
+| MySQL        | Database                     |
+| HTML5        | Structure                    |
+| CSS3         | Styling                      |
+| jQuery       | DOM manipulation             |
+| AJAX         | Asynchronous form submission |
 
 ---
 
@@ -41,16 +41,16 @@ This project allows users to **Add, Update, View, and Soft Delete employee recor
 ```
 employee-management-system
 │
-├── screenshots├──employee-table.png
-
-                ├──add-employee-form.png
-                ├──edit-employee-form.png
-                ├──updated-employee-form.png
-                ├──employee-details-popup.png
-                ├──validation-error.png
-                ├──delete-employee.png
-                ├──deleted-employee.png
-                
+├── screenshots
+│   ├── employee-table.png
+│   ├── add-employee-form.png
+│   ├── edit-employee-form.png
+│   ├── updated-employee-form.png
+│   ├── employee-details-popup.png
+│   ├── validation-error.png
+│   ├── delete-employee.png
+│   └── deleted-employee.png
+│
 ├── index.php
 ├── check_email.php
 ├── stylesheet.css
@@ -101,13 +101,13 @@ git clone https://github.com/yourusername/employee-management-system.git
 
 ### 2️⃣ Move Project
 
-Move project folder into
+Move the project folder into:
 
 ```
 htdocs
 ```
 
-(XAMPP)
+(for XAMPP)
 
 or
 
@@ -115,43 +115,39 @@ or
 www
 ```
 
-(WAMP)
+(for WAMP)
 
 ---
 
 ### 3️⃣ Start Server
 
-Start
+Start the following services from XAMPP/WAMP control panel:
 
-- Apache
-- MySQL
-
-from XAMPP / WAMP control panel.
+* Apache
+* MySQL
 
 ---
 
-### 4️⃣ Open Browser
+### 4️⃣ Open in Browser
 
 ```
 http://localhost/Employee-Managment-System
 ```
 
-The project will automatically create:
+The application will automatically create:
 
-- database
-- table
+* the **database**
+* the **employee table**
 
 ---
 
 # 📸 Screenshots
 
-## Screenshots
-
 ### Employee Table
 
 ![Employee Table](screenshots/employee-table.png)
 
-### Add Employee
+### Add Employee Form
 
 ![Add Employee](screenshots/add-employee-form.png)
 
@@ -163,37 +159,21 @@ The project will automatically create:
 
 ![Updated Employee](screenshots/updated-employee-form.png)
 
-### Details Popup
+### Employee Details Popup
 
-![Details](screenshots/employee-details-popup.png)
+![Details Popup](screenshots/employee-details-popup.png)
 
-### Validation
+### Validation Error
 
 ![Validation](screenshots/validation-error.png)
 
-### Before Deleted
+### Before Delete
 
-![Before Deleted](screenshots/delete-employee.png)
+![Before Delete](screenshots/delete-employee.png)
 
-### Validation
+### After Delete (Soft Delete)
 
-![After Deleted](screenshots/deleted-employee.png)
-
-## Employee Table
-
-Shows all employees in a table view.
-
-## Add Employee Form
-
-Form used to insert employee details.
-
-## Edit Employee
-
-Edit existing employee record.
-
-## Employee Details Popup
-
-View complete employee details.
+![After Delete](screenshots/deleted-employee.png)
 
 ---
 
@@ -201,12 +181,12 @@ View complete employee details.
 
 The project includes multiple validations:
 
-- Required fields validation
-- Email format validation
-- Duplicate email check using AJAX
-- Date of birth validation
-- Rating input validation
-- Salary validation
+* Required fields validation
+* Email format validation
+* Duplicate email check using AJAX
+* Date of birth validation
+* Rating input validation
+* Salary validation
 
 ---
 
@@ -214,51 +194,55 @@ The project includes multiple validations:
 
 AJAX is used for:
 
-- Email duplicate checking
-- Insert employee
-- Update employee
+* Checking duplicate email
+* Inserting employee data
+* Updating employee records
 
-This avoids full page reload and improves user experience.
+This improves **user experience** by avoiding full page reloads.
 
 ---
 
 # 🔄 Soft Delete System
 
-Employees are not permanently removed.
+Employees are **not permanently deleted**.
 
-Instead:
+Instead the system updates:
 
 ```
 is_deleted = 1
 ```
 
-This keeps database history safe.
+This allows data recovery and keeps database history safe.
 
 ---
 
 # 🧠 Learning Purpose
 
-This project is great for learning:
+This project is useful for learning:
 
-- PHP CRUD operations
-- MySQL database design
-- AJAX integration
-- jQuery form validation
-- Dynamic UI with JavaScript
+* PHP CRUD operations
+* MySQL database structure
+* AJAX integration with PHP
+* jQuery form validation
+* Dynamic UI interactions
 
 ---
 
 # 🔮 Future Improvements
 
-Possible upgrades:
+* 🔎 Search employees
 
-🔎 Search employees
-📄 Pagination
-📊 Dashboard statistics
-🔐 PDO prepared statements
-📱 Responsive UI
-📁 MVC project structure
-🌐 REST API integration
+* 📄 Pagination system
+
+* 📊 Dashboard statistics
+
+* 🔐 PDO prepared statements for better security
+
+* 📱 Responsive UI design
+
+* 📁 MVC project architecture
+
+* 🌐 REST API integration
 
 ---
 
